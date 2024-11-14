@@ -82,7 +82,6 @@ class Pessoa {
     apresentar() {
         console.log(`Olá, meu nome é ${this._nome}, tenho ${this._idade} anos e minha altura é ${this._altura} metros.`);
     }
-    // Método para fazer aniversário (incrementa a idade)
     fazerAniversario() {
         this._idade++;
         console.log(`Feliz aniversário, ${this._nome}! Agora você tem ${this._idade} anos.`);
