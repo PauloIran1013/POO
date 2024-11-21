@@ -34,6 +34,9 @@ export class guerreiro extends Personagem {
     exibirInfo():void{
         console.log(`Nome: ${this.nome}, Vida: ${this.getVida()},Força: ${this.forca}, Defesa: ${this.getDefesa()}, Magia: ${this.getMagia()}`); 
     }
+    public atacar(): void {
+        return 'Ataque bolado'
+    }
 }
 
 const guerreiro1 = new guerreiro('Geraldo')

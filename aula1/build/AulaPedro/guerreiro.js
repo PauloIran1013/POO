@@ -31,6 +31,9 @@ class guerreiro extends rpg_1.Personagem {
     exibirInfo() {
         console.log(`Nome: ${this.nome}, Vida: ${this.getVida()},Força: ${this.forca}, Defesa: ${this.getDefesa()}, Magia: ${this.getMagia()}`);
     }
+    atacar() {
+        return 'Ataque bolado';
+    }
 }
 exports.guerreiro = guerreiro;
 const guerreiro1 = new guerreiro('Geraldo');

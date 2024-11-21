@@ -7,4 +7,5 @@ export declare class guerreiro extends Personagem {
     MacetadaViolenta(alvo: Personagem): void;
     Paulada(alvo: Personagem): string;
     exibirInfo(): void;
+    atacar(): void;
 }

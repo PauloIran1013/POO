@@ -31,14 +31,16 @@ public mateusComH(alvo:Personagem){
     alvo.receberDano(dano);
 }
 
+public atacar(): string {
+     return 'Ataque mágico'
+}
+
 exibirInfo():void{
     console.log(`Nome: ${this.nome}, Vida: ${this.getVida()},Força: ${this.forca}, Defesa: ${this.getDefesa()}, Magia: ${this.getMagia()}`); 
 }
 
-
-
 }
-const mago1 = new mago ('Geremilda')
+const mago1  = new mago ('Geremilda')
 // mago1.exibirInfo()
 // mago1.sinsalabim(mago1)
 // mago1.exibirInfo()
@@ -48,4 +50,6 @@ const mago1 = new mago ('Geremilda')
 // mago1.exibirInfo()
 mago1.EscudoMagico(mago1)
 mago1.exibirInfo()
+console.log(mago1.atacar());
+
 

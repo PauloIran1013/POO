@@ -27,6 +27,9 @@ class mago extends rpg_1.Personagem {
         const dano = this.getMagia() * 2;
         alvo.receberDano(dano);
     }
+    atacar() {
+        return 'Ataque mágico';
+    }
     exibirInfo() {
         console.log(`Nome: ${this.nome}, Vida: ${this.getVida()},Força: ${this.forca}, Defesa: ${this.getDefesa()}, Magia: ${this.getMagia()}`);
     }
@@ -42,3 +45,4 @@ const mago1 = new mago('Geremilda');
 // mago1.exibirInfo()
 mago1.EscudoMagico(mago1);
 mago1.exibirInfo();
+console.log(mago1.atacar());

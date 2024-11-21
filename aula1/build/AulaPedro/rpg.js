@@ -46,9 +46,6 @@ class Personagem {
         this.setVida(this.vida - dano);
         return `${this.nome} recebeu ${dano} de dano e agora tem ${this.vida} de vida.`;
     }
-    atacar() {
-        return 'Ataque normal';
-    }
 }
 exports.Personagem = Personagem;
 const personagem = new Personagem('Cleiton', 100, 35, 17, 0);

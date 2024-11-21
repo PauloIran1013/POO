@@ -6,5 +6,6 @@ export declare class mago extends Personagem {
     ChuvaAcida(alvo: Personagem): void;
     EscudoMagico(defesaNova: Personagem): void;
     mateusComH(alvo: Personagem): void;
+    atacar(): string;
     exibirInfo(): void;
 }

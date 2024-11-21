@@ -1,4 +1,4 @@
-export declare class Personagem {
+export declare abstract class Personagem {
     protected nome: string;
     private vida;
     protected forca: number;
@@ -15,5 +15,5 @@ export declare class Personagem {
     getMagia(): number;
     exibirInfo(): void;
     receberDano(dano: number): string;
-    atacar(): string;
+    abstract atacar(): void;
 }

@@ -1,6 +1,6 @@
 import { mago } from "./mago";
 
-export class Personagem{
+export abstract class Personagem{
     protected nome:string;
     private vida:number;
     protected forca:number;
@@ -55,9 +55,8 @@ export class Personagem{
     this.setVida(this.vida - dano);
     return `${this.nome} recebeu ${dano} de dano e agora tem ${this.vida} de vida.`
     }
-public atacar():string{
-return 'Ataque normal'
-}
+public abstract atacar():void
+
     
 } 
 const personagem = new Personagem('Cleiton',100,35,17,0);
