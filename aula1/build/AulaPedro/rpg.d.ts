@@ -1,5 +1,5 @@
 export declare class Personagem {
-    private nome;
+    protected nome: string;
     private vida;
     protected forca: number;
     private defesa;
@@ -10,6 +10,10 @@ export declare class Personagem {
     setVida(novaVida: number): void;
     getForca(): number;
     getDefesa(): number;
+    setDefesa(novaDefesa: number): void;
+    AumentoDefesaM(defesaNova: number): void;
     getMagia(): number;
+    exibirInfo(): void;
     receberDano(dano: number): string;
+    atacar(): string;
 }
