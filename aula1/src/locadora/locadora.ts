@@ -3,36 +3,6 @@ import { Carro } from "./carro";
 import { Moto } from "./moto";
 import { Caminhao } from "./caminhao";
 
-// export class Locadora{
-//     private veiculo:Veiculos[]= [];
-
-    
-//     public getVeiculo():Veiculos[]  {
-//         return this.veiculo 
-//     }
-    
-//     public setVeiculo(veiculo:Veiculos[]) {
-//         this.veiculo = veiculo
-//     }
-
-//     public addVeiculo(veiculos:Veiculos){
-//         this.veiculo.push(veiculos)
-//     }
-//     public removeVeiculo(modelo:string):void{
-//         this.veiculo = this.veiculo.filter(veiculo => veiculo.modelo !== modelo)
-//     }
-//     exibirVeiculos(): void {
-//         console.log("Lista de Veículos:");
-//         this.veiculo.forEach(veiculo => veiculo.exibirInfo());
-//     }
-//     buscarVeiculoPorMarca(marca: string): Veiculos[] {
-//         return this.veiculo.filter(veiculo => veiculo.marca === marca);
-//     }
-    
-    
-// }
-
-
 export class Locadora {
     private veiculo: Veiculos[] = [];
 
