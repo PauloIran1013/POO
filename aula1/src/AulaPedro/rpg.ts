@@ -59,9 +59,9 @@ public abstract atacar():void
 
     
 } 
-const personagem = new Personagem('Cleiton',100,35,17,0);
-console.log(personagem.atacar());
+// const personagem = new Personagem('Cleiton',100,35,17,0);
+// console.log(personagem.atacar());
 
-// personagem.exibirInfo()
-// console.log(personagem.receberDano(101))
-// personagem.exibirInfo()
+// // personagem.exibirInfo()
+// // console.log(personagem.receberDano(101))
+// // personagem.exibirInfo()

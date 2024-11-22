@@ -48,8 +48,8 @@ class Personagem {
     }
 }
 exports.Personagem = Personagem;
-const personagem = new Personagem('Cleiton', 100, 35, 17, 0);
-console.log(personagem.atacar());
-// personagem.exibirInfo()
-// console.log(personagem.receberDano(101))
-// personagem.exibirInfo()
+// const personagem = new Personagem('Cleiton',100,35,17,0);
+// console.log(personagem.atacar());
+// // personagem.exibirInfo()
+// // console.log(personagem.receberDano(101))
+// // personagem.exibirInfo()
