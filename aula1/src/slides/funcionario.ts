@@ -77,7 +77,7 @@ class Funcionario {
 }
 
 function simulador(): void {
-    const nome = prompt("Digite o nome do funcionário: ") || "";
+    const nome = prompt("Digite  o nome do funcionário: ") || "";
     const cpf = prompt("Digite o CPF do funcionário: ") || "";
     const dataNasc = prompt("Digite a data de nascimento (dd/mm/aaaa): ") || "";
     const salario = parseFloat(prompt("Digite o salário do funcionário: ") || "0");
@@ -121,4 +121,4 @@ function simulador(): void {
         }
     }
 }
- simulador();
+ simulador();   

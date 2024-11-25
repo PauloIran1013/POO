@@ -58,5 +58,3 @@ function main() {
     veiculosVolkswagen.forEach(veiculo => veiculo.exibirInfo());
 }
 
-// Executando o código
-main();
