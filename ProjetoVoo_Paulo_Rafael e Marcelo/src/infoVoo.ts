@@ -102,18 +102,18 @@ export class InfoVoo {
     }
 }
 // Criando objetos de Avioes e Passagem
-const aviao1 = new Avioes('Airbus A320', 'Airbus', 180, 'João Oliveira', 'joao.oliveira@example.com', '987.654.321-00', 'Piloto', 54321, 12, 9, 500);
-const passagem1 = new Passagem('Carlos Silva', 'carlos.silva@example.com', '123.456.789-00', 'Passageiro', 56789, 'São Paulo', 350.00, true, 10);
+// const aviao1 = new Avioes('Airbus A320', 'Airbus', 180, 'João Oliveira', 'joao.oliveira@example.com', '987.654.321-00', 'Piloto', 54321, 12, 9, 500);
+// const passagem1 = new Passagem('Carlos Silva', 'carlos.silva@example.com', '123.456.789-00', 'Passageiro', 56789, 'São Paulo', 350.00, true, 10);
 
-// Criando o objeto InfoVoo
-const infoVoo = new InfoVoo(aviao1, passagem1, '2024-12-01', '2024-12-10', '9h', 50, 130);
+// // Criando o objeto InfoVoo
+// const infoVoo = new InfoVoo(aviao1, passagem1, '2024-12-01', '2024-12-10', '9h', 50, 130);
 
-// Exibindo informações do voo e da passagem
-infoVoo.exibirInfo();
+// // Exibindo informações do voo e da passagem
+// infoVoo.exibirInfo();
 
-// Ocupando assentos
-infoVoo.ocuparAssento(5);  // Ocupa 5 assentos
+// // Ocupando assentos
+// infoVoo.ocuparAssento(5);  // Ocupa 5 assentos
 
-// Desocupando assentos
-infoVoo.desocuparAssento(2);  // Desocupa 2 assentos
+// // Desocupando assentos
+// infoVoo.desocuparAssento(2);  // Desocupa 2 assentos
 

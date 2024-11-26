@@ -80,34 +80,34 @@ public exibirInfo(): void {
 
 }
 
-// Criando um objeto da classe Piloto
-const piloto1 = new Piloto(
-    'Carlos Silva',               
-    'carlos.silva@example.com',    
-    '123.456.789-00',               
-    'Piloto',                      
-    12345,                        
-    10,                            
-    8                            
-);
+// // Criando um objeto da classe Piloto
+// const piloto1 = new Piloto(
+//     'Carlos Silva',               
+//     'carlos.silva@example.com',    
+//     '123.456.789-00',               
+//     'Piloto',                      
+//     12345,                        
+//     10,                            
+//     8                            
+// );
 
-// Usando os métodos do objeto piloto1
+// // Usando os métodos do objeto piloto1
 
-// Validando o email
-piloto1.validarEmail();  // Verifica se o email é válido
+// // Validando o email
+// piloto1.validarEmail();  // Verifica se o email é válido
 
-// Exibindo as informações do piloto
-piloto1.exibirInfo();  // Exibe as informações do piloto
+// // Exibindo as informações do piloto
+// piloto1.exibirInfo();  // Exibe as informações do piloto
 
-// Atualizando os anos de experiência e a avaliação
-piloto1.setAnosExp(12);  // Atualiza para 12 anos de experiência
-piloto1.setAvaliacao(9); // Atualiza para 9 na avaliação
+// // Atualizando os anos de experiência e a avaliação
+// piloto1.setAnosExp(12);  // Atualiza para 12 anos de experiência
+// piloto1.setAvaliacao(9); // Atualiza para 9 na avaliação
 
-// Exibindo as informações novamente após as atualizações
-piloto1.exibirInfo();  // Exibe as informações atualizadas
+// // Exibindo as informações novamente após as atualizações
+// piloto1.exibirInfo();  // Exibe as informações atualizadas
 
-// Embarcando (simulando a ação de embarcar)
-piloto1.embarcar();  // Exibe a mensagem de embarque
+// // Embarcando (simulando a ação de embarcar)
+// piloto1.embarcar();  // Exibe a mensagem de embarque
 
-// Pilotando (simulando a ação de pilotar)
-piloto1.pilotar();  // Exibe a mensagem de pilotagem
+// // Pilotando (simulando a ação de pilotar)
+// piloto1.pilotar();  // Exibe a mensagem de pilotagem

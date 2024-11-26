@@ -23,6 +23,6 @@ class Avioes extends piloto_1.Piloto {
 }
 exports.Avioes = Avioes;
 const aviao1 = new Avioes('Airbus A320', 'Airbus', 180, 'João Oliveira', 'joao.oliveira@example.com', '987.654.321-00', 'Piloto', 54321, 12, 9, 500);
-aviao1.exibirInfo();
-aviao1.voar();
-aviao1.pousar();
+// aviao1.exibirInfo();
+// aviao1.voar();  
+// aviao1.pousar(); 

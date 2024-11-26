@@ -1,8 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.InfoVoo = void 0;
-const avioes_1 = require("./avioes");
-const passagem_1 = require("./passagem");
 class InfoVoo {
     constructor(aviao, // Passagem de objeto Avioes
     passagem, // Passagem de objeto Passagem
@@ -78,13 +76,13 @@ class InfoVoo {
 }
 exports.InfoVoo = InfoVoo;
 // Criando objetos de Avioes e Passagem
-const aviao1 = new avioes_1.Avioes('Airbus A320', 'Airbus', 180, 'João Oliveira', 'joao.oliveira@example.com', '987.654.321-00', 'Piloto', 54321, 12, 9, 500);
-const passagem1 = new passagem_1.Passagem('Carlos Silva', 'carlos.silva@example.com', '123.456.789-00', 'Passageiro', 56789, 'São Paulo', 350.00, true, 10);
-// Criando o objeto InfoVoo
-const infoVoo = new InfoVoo(aviao1, passagem1, '2024-12-01', '2024-12-10', '9h', 50, 130);
-// Exibindo informações do voo e da passagem
-infoVoo.exibirInfo();
-// Ocupando assentos
-infoVoo.ocuparAssento(5); // Ocupa 5 assentos
-// Desocupando assentos
-infoVoo.desocuparAssento(2); // Desocupa 2 assentos
+// const aviao1 = new Avioes('Airbus A320', 'Airbus', 180, 'João Oliveira', 'joao.oliveira@example.com', '987.654.321-00', 'Piloto', 54321, 12, 9, 500);
+// const passagem1 = new Passagem('Carlos Silva', 'carlos.silva@example.com', '123.456.789-00', 'Passageiro', 56789, 'São Paulo', 350.00, true, 10);
+// // Criando o objeto InfoVoo
+// const infoVoo = new InfoVoo(aviao1, passagem1, '2024-12-01', '2024-12-10', '9h', 50, 130);
+// // Exibindo informações do voo e da passagem
+// infoVoo.exibirInfo();
+// // Ocupando assentos
+// infoVoo.ocuparAssento(5);  // Ocupa 5 assentos
+// // Desocupando assentos
+// infoVoo.desocuparAssento(2);  // Desocupa 2 assentos
