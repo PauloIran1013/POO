@@ -30,15 +30,16 @@ function criarAviao() {
     let marca = prompt("Informe a marca do avião:");
     let numAssentos = parseInt(prompt("Informe o número de assentos do avião:"));
     let qtdTotaldecombustivel = parseInt(prompt("Informe a quantidade total de combustível do avião (em litros):"));
-
+    let qtdNoTanque = parseInt(prompt("Informe a quantidade de combustível atual no tanque (em litros):"))
     // Criando um piloto (para associar ao avião)
     const piloto = criarPiloto();
 
     // Criando o avião com o piloto
-    const aviao = new Avioes(modelo, marca, numAssentos, piloto.nome, piloto.email, piloto.cpf, piloto.ocupacao, piloto.getBreve(), piloto.getAnosExp(), piloto.getAvaliacao(), qtdTotaldecombustivel);
+    const aviao = new Avioes(modelo, marca, numAssentos, piloto.nome, piloto.email, piloto.cpf, piloto.ocupacao, piloto.getBreve(), piloto.getAnosExp(), piloto.getAvaliacao(), qtdTotaldecombustivel,qtdNoTanque);
     aviao.exibirInfo(); 
     aviao.voar()
     aviao.pousar()
+    aviao.abastecer(100)
     return aviao;
 }
 

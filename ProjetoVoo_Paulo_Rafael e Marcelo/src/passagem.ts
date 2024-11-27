@@ -85,7 +85,7 @@ public extornar(qtdExtornada:number):void{
 
 
 public exibirInfo(): void {
-    super.exibirInfo(); // Chama o método exibirInfo da classe Passageiro para exibir os dados do passageiro
+    super.exibirInfo(); 
     console.log(`Destino: ${this.destino}, Preço: R$${this.preco}, Disponível: ${this.disponivel ? 'Sim' : 'Não'}, Quantidade disponível: ${this.qtdDisponivel}`);
 }
 }
