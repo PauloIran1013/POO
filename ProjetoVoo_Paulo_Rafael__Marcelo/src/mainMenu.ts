@@ -39,7 +39,7 @@ function criarAviao() {
     aviao.exibirInfo(); 
     aviao.voar()
     aviao.pousar()
-    aviao.abastecer(100)
+    aviao.abastecer(1000)
     return aviao;
 }
 
@@ -96,15 +96,19 @@ function mostrarMenu() {
     switch(opcao) {
         case 1:
             criarPiloto();
+            mostrarMenu();
             break;
         case 2:
             criarAviao();
+            mostrarMenu();
             break;
         case 3:
             criarPassagem();
+            mostrarMenu();
             break;
         case 4:
             criarVoo();
+            mostrarMenu();
             break;
         case 5:
             console.log("Saindo...");
@@ -112,11 +116,10 @@ function mostrarMenu() {
             break;
         default:
             console.log("Opção inválida. Tente novamente.");
+            mostrarMenu();
             break;
     }
 }
 
-// Loop para exibir o menu repetidamente até o usuário sair
-while (true) {
     mostrarMenu();
-}
+
